@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+.cards {
+    width: 349px;
+    height: 600px;
+    border-radius: 50px;
+    background: yellow;
+    box-shadow:  6px 6px 12px black,-6px -6px 12px white;
+    transition: 0.5s;
+}
+
+.fotter-letra {
+        text-align: center;
+        margin-top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        font-style: italic;
+ } 
+
+
+.cards2 {
+    width: 349px;
+    height: 450px;
+    border-radius: 50px;
+    background: yellow;
+    box-shadow:3px 3px black, -1em 0 0.4em olive;
+    color: black;
+}
+
+.efeito-cards {
+    transform: scale(100%);
+    transition: 0.5s;
+}
+
+.efeito-cards:hover {
+    transition: 0.5s;
+    transform: perspective(1200px) translateY(-1%) rotateX(3deg) translateZ(0);
+}
+
+.fotoCard {
+    margin-top: 10px;
+    opacity: 90%;
+    border-radius: 100%;
+}
+
+.price {
+    font-style: italic;
+}
+
+
+.descricao{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}

@@ -1,15 +1,7 @@
-# React + Vite
-utilizar as dependências 
+Trabalho de Grupo - Projeto usando Styled components e React Este projeto foi desenvolvido pelo grupo composto por Eduardo Andrade (RM99758), Gabriel Doms (RM98630), Gabriela Trevisan (RM99500) e Rafael Franck (RM550875).
 
-https://react-icons.github.io/react-icons/icons?name=fi
-npm react-icons
-npm react-router-dom
+Descrição do Projeto Neste trabalho, utilizamos as tecnologias Styled components e React para criar um projeto que atende aos requisitos estabelecidos. O projeto visa demonstrar nossas habilidades em design web e desenvolvimento front-end utilizando essas tecnologias.
 
+Tecnologias Utilizadas Styled components: Utilizamos Styled components para estilizar nosso projeto, aplicando diferentes estilos e layouts para criar uma experiência de usuário atraente e amigável.
 
-https://checkpoint-5-js.netlify.app/
-
-Enzo de Oliveira Cunha - 550985
-Guilherme Catelli Bichaco - 97989
-Lucas Almeida de Siqueira - 551854
-Lucas Laia Manentti - 97709
-Vinicius Sobreira Borges - 97767
+React: Desenvolvemos a parte front-end do projeto usando o framework React, que nos permite criar componentes reutilizáveis e construir interfaces de usuário interativas.

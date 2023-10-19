@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 .cards {
     width: 349px;
     height: 600px;
@@ -53,3 +54,80 @@
     font-family: 'Roboto Mono', monospace;
     font-style: italic;
 }
+
+.navegacao {
+    color: aqua;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .tlink {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: red;
+  }
+  
+  .tlink:hover {
+    color: blue;
+  }
+
+  .login-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .login-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  

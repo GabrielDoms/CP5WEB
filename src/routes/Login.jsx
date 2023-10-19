@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 import Pedido from './Pedido';
+import '../routes/style.css';
+
 
 function Login() {
   /*hook useref ele retorna uma referencia a um elemento ou componente sem ter que ser renderizado novamente e também permite acesso ao DOM */
@@ -27,30 +29,24 @@ function Login() {
   };
 
   return (
-    <section>
-      <h1>Login</h1>
-      {/* if ternario*/}
-      {getUser && getSenha ? (
-        <Pedido />
-      ) : (
-        /* chamando a função handleSubmit dentro do form*/
-        <form onSubmit={handleSubmit}>
-          <p>
-            USUÁRIO:
-            {/* passando a referencia no usuario */}
-            <input type="text" ref={user} />
-          </p>
-          <br />
-          <p>
-            SENHA:
-            {/* passando a referencia na senha */}
-            <input type="password" ref={password} />
-          </p>
-          <br />
-          <input type="submit" value="Login" />
-        </form>
-      )}
-    </section>
+    <section className="login-container">
+  <h1 className="login-heading">Login</h1>
+  {getUser && getSenha ? (
+    <Pedido />
+  ) : (
+    <form onSubmit={handleSubmit} className="login-form">
+      <div className="input-group">
+        <label htmlFor="usuario">USUÁRIO:</label>
+        <input type="text" id="usuario" ref={user} />
+      </div>
+      <div className="input-group">
+        <label htmlFor="senha">SENHA:</label>
+        <input type="password" id="senha" ref={password} />
+      </div>
+      <input type="submit" value="Login" className="login-button" />
+    </form>
+  )}
+</section>
   );
 }
 

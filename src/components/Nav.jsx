@@ -1,5 +1,6 @@
 import {} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import '../routes/style.css';
 
 function Nav() {
 /*Hook- useNavgite*/
@@ -20,19 +21,19 @@ function Nav() {
         <nav className='navegacao'>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/"className='tlink'>Home</Link>
             </li>
             <li>
-              <Link to="/produtos">Produtos</Link>
+              <Link to="/produtos"className='tlink'>Produtos</Link>
             </li>
             <li>
-              <Link to="sobre">Sobre</Link>
+              <Link to="sobre"className='tlink'>Sobre</Link>
             </li>
             {/* <li>
               <Link to="/cadastrar/produto">Cadastrar Produto</Link>
             </li> */}
             <li>
-              <Link to="/login">LOGIN</Link>
+              <Link to="/login"className='tlink'>LOGIN</Link>
             </li>
             <button onClick={handleLogout} >Logout</button>
           </ul>
